@@ -1,0 +1,25 @@
+I 
+E 
+A, Go to a movie theater 
+E 
+D 
+E, I like science fiction film 
+A, See movie Inception 
+E 
+F 
+E, I like animated film 
+A, See movie WALL¡PE 
+E
+
+0,1 
+1,2 
+2,3 
+3,4 
+4,5 
+5,6 
+6,7 
+7,8 
+4,9 
+9,10 
+10,11 
+11,8 

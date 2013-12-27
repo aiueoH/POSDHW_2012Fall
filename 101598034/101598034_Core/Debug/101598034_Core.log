@@ -1,0 +1,73 @@
+﻿已經開始建置於 2013/2/20 下午 02:51:44。
+     1>節點 2 (build 目標) 上的專案 "D:\Dropbox\POSD\hw7\101598034\101598034_Core\101598034_Core.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\101598034_Core.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\gtest\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Activity.cpp ActivityDiagram.cpp AddGlyphCommand.cpp AddGlyphState.cpp Command.cpp CommandManager.cpp ConnectGlyphCommand.cpp ConnectState.cpp DecisionNode.cpp DeleteGlyphCommand.cpp Edge.cpp EditeTextCommand.cpp FinalNode.cpp Glyph.cpp GlyphComponent.cpp GlyphFactory.cpp GlyphVisitor.cpp InitialNode.cpp LayoutGlyphVisitor.cpp MoveGlyphCommand.cpp Observer.cpp PointState.cpp PresentationModel.cpp PresentationModelState.cpp SaveGlyphVisitor.cpp Subject.cpp Tool.cpp
+         Tool.cpp
+         Subject.cpp
+         SaveGlyphVisitor.cpp
+         PresentationModelState.cpp
+         PresentationModel.cpp
+         PointState.cpp
+         Observer.cpp
+         MoveGlyphCommand.cpp
+         LayoutGlyphVisitor.cpp
+         InitialNode.cpp
+         GlyphVisitor.cpp
+         GlyphFactory.cpp
+         GlyphComponent.cpp
+         Glyph.cpp
+         FinalNode.cpp
+         EditeTextCommand.cpp
+         Edge.cpp
+         DeleteGlyphCommand.cpp
+         DecisionNode.cpp
+         ConnectState.cpp
+         正在產生程式碼...
+         正在編譯...
+         ConnectGlyphCommand.cpp
+         CommandManager.cpp
+         Command.cpp
+         AddGlyphState.cpp
+         AddGlyphCommand.cpp
+         ActivityDiagram.cpp
+         Activity.cpp
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\Dropbox\POSD\hw7\101598034\Debug\101598034_Core.lib" /NOLOGO Debug\Activity.obj
+         Debug\ActivityDiagram.obj
+         Debug\AddGlyphCommand.obj
+         Debug\AddGlyphState.obj
+         Debug\Command.obj
+         Debug\CommandManager.obj
+         Debug\ConnectGlyphCommand.obj
+         Debug\ConnectState.obj
+         Debug\DecisionNode.obj
+         Debug\DeleteGlyphCommand.obj
+         Debug\Edge.obj
+         Debug\EditeTextCommand.obj
+         Debug\FinalNode.obj
+         Debug\Glyph.obj
+         Debug\GlyphComponent.obj
+         Debug\GlyphFactory.obj
+         Debug\GlyphVisitor.obj
+         Debug\InitialNode.obj
+         Debug\LayoutGlyphVisitor.obj
+         Debug\MoveGlyphCommand.obj
+         Debug\Observer.obj
+         Debug\PointState.obj
+         Debug\PresentationModel.obj
+         Debug\PresentationModelState.obj
+         Debug\SaveGlyphVisitor.obj
+         Debug\Subject.obj
+         Debug\Tool.obj
+         101598034_Core.vcxproj -> D:\Dropbox\POSD\hw7\101598034\Debug\101598034_Core.lib
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\101598034_Core.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\101598034_Core.lastbuildstate"。
+     1>專案 "D:\Dropbox\POSD\hw7\101598034\101598034_Core\101598034_Core.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:26.09

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="原始程式檔\Glyph">
+      <UniqueIdentifier>{b3b04bcc-ded9-4fca-92a2-e48f25177c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\Command">
+      <UniqueIdentifier>{1573e680-e0ee-4b86-842d-37622c128ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Glyph">
+      <UniqueIdentifier>{cdb4c639-e36c-4264-9893-bbb1d1648de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Command">
+      <UniqueIdentifier>{def318bc-a36e-4164-92aa-4e474143e92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\PresentationModelState">
+      <UniqueIdentifier>{0f6e2228-d64a-4ca9-897e-1102cf69f266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\PresentationModelState">
+      <UniqueIdentifier>{e03a187c-7c63-42cf-b650-5365af1299f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\ObserverPattern">
+      <UniqueIdentifier>{207fb46c-c12b-4734-9257-33c5b2ded40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\ObserverPattern">
+      <UniqueIdentifier>{07b28704-dbe5-41e1-995a-9dfe461bd7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\Visitor">
+      <UniqueIdentifier>{8ad65d63-7ac5-4223-87cf-ad639250878a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Visitor">
+      <UniqueIdentifier>{5a4f3496-3953-46f3-afd2-99aaeb4c193e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActivityDiagram.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandManager.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="GlyphFactory.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Activity.cpp">
+      <Filter>原始程式檔\Glyph</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionNode.cpp">
+      <Filter>原始程式檔\Glyph</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge.cpp">
+      <Filter>原始程式檔\Glyph</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyph.cpp">
+      <Filter>原始程式檔\Glyph</Filter>
+    </ClCompile>
+    <ClCompile Include="GlyphComponent.cpp">
+      <Filter>原始程式檔\Glyph</Filter>
+    </ClCompile>
+    <ClCompile Include="InitialNode.cpp">
+      <Filter>原始程式檔\Glyph</Filter>
+    </ClCompile>
+    <ClCompile Include="AddGlyphCommand.cpp">
+      <Filter>原始程式檔\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>原始程式檔\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectGlyphCommand.cpp">
+      <Filter>原始程式檔\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteGlyphCommand.cpp">
+      <Filter>原始程式檔\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalNode.cpp">
+      <Filter>原始程式檔\Glyph</Filter>
+    </ClCompile>
+    <ClCompile Include="PresentationModel.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PresentationModelState.cpp">
+      <Filter>原始程式檔\PresentationModelState</Filter>
+    </ClCompile>
+    <ClCompile Include="PointState.cpp">
+      <Filter>原始程式檔\PresentationModelState</Filter>
+    </ClCompile>
+    <ClCompile Include="AddGlyphState.cpp">
+      <Filter>原始程式檔\PresentationModelState</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectState.cpp">
+      <Filter>原始程式檔\PresentationModelState</Filter>
+    </ClCompile>
+    <ClCompile Include="EditeTextCommand.cpp">
+      <Filter>原始程式檔\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>原始程式檔\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>原始程式檔\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveGlyphCommand.cpp">
+      <Filter>原始程式檔\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="GlyphVisitor.cpp">
+      <Filter>原始程式檔\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveGlyphVisitor.cpp">
+      <Filter>原始程式檔\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutGlyphVisitor.cpp">
+      <Filter>原始程式檔\Visitor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandManager.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Globle.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="GlyphFactory.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity.h">
+      <Filter>標頭檔\Glyph</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>標頭檔\Glyph</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalNode.h">
+      <Filter>標頭檔\Glyph</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyph.h">
+      <Filter>標頭檔\Glyph</Filter>
+    </ClInclude>
+    <ClInclude Include="GlyphComponent.h">
+      <Filter>標頭檔\Glyph</Filter>
+    </ClInclude>
+    <ClInclude Include="InitialNode.h">
+      <Filter>標頭檔\Glyph</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionNode.h">
+      <Filter>標頭檔\Glyph</Filter>
+    </ClInclude>
+    <ClInclude Include="AddGlyphCommand.h">
+      <Filter>標頭檔\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>標頭檔\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectGlyphCommand.h">
+      <Filter>標頭檔\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteGlyphCommand.h">
+      <Filter>標頭檔\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="PresentationModel.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityDiagram.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PresentationModelState.h">
+      <Filter>標頭檔\PresentationModelState</Filter>
+    </ClInclude>
+    <ClInclude Include="PointState.h">
+      <Filter>標頭檔\PresentationModelState</Filter>
+    </ClInclude>
+    <ClInclude Include="AddGlyphState.h">
+      <Filter>標頭檔\PresentationModelState</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectState.h">
+      <Filter>標頭檔\PresentationModelState</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTextCommand.h">
+      <Filter>標頭檔\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>標頭檔\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>標頭檔\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveGlyphCommand.h">
+      <Filter>標頭檔\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="GlyphVisitor.h">
+      <Filter>標頭檔\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveGlyphVisitor.h">
+      <Filter>標頭檔\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutGlyphVisitor.h">
+      <Filter>標頭檔\Visitor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

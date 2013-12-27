@@ -1,0 +1,41 @@
+﻿已經開始建置於 2013/2/20 下午 02:52:11。
+     1>節點 3 (build 目標) 上的專案 "D:\Dropbox\POSD\hw7\101598034\101598034_GUI\101598034_GUI.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\101598034_GUI.unsuccessfulbuild"。
+       CustomBuild:
+         Moc'ing GraphUI.h...
+         Uic'ing GraphUI.ui...
+         Moc'ing ActivityDiagramTable.h...
+         Rcc'ing GraphUI.qrc...
+     1>RCC : warning : No resources in 'D:\Dropbox\POSD\hw7\101598034\101598034_GUI\GraphUI.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\gtest\include /I..\101598034_Core /I.\GeneratedFiles /I. /IC:\Qt\4.8.3\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.3\include\QtCore /IC:\Qt\4.8.3\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ActivityDiagramPanel.cpp ActivityDiagramTable.cpp GeneratedFiles\Debug\moc_ActivityDiagramTable.cpp GeneratedFiles\Debug\moc_GraphUI.cpp GraphUI.cpp main.cpp
+         ActivityDiagramPanel.cpp
+         ActivityDiagramTable.cpp
+         moc_ActivityDiagramTable.cpp
+         moc_GraphUI.cpp
+         GraphUI.cpp
+         main.cpp
+         正在產生程式碼...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\gtest\include /I..\101598034_Core /I.\GeneratedFiles /I. /IC:\Qt\4.8.3\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.3\include\QtCore /IC:\Qt\4.8.3\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_GraphUI.cpp
+         qrc_GraphUI.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\POSD\hw7\101598034\Win32\Debug\\101598034_GUI.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.3\lib C:\gtest\lib\gtestd.lib ..\Debug\101598034_Core.lib qtmaind.lib QtCored4.lib QtGuid4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\101598034_GUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Dropbox\POSD\hw7\101598034\Win32\Debug\101598034_GUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\POSD\hw7\101598034\Win32\Debug\101598034_GUI.lib" /MACHINE:X86 Debug\ActivityDiagramPanel.obj
+         Debug\ActivityDiagramTable.obj
+         Debug\moc_ActivityDiagramTable.obj
+         Debug\moc_GraphUI.obj
+         Debug\qrc_GraphUI.obj
+         Debug\GraphUI.obj
+         Debug\main.obj
+         101598034_GUI.vcxproj -> D:\Dropbox\POSD\hw7\101598034\Win32\Debug\101598034_GUI.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Dropbox\POSD\hw7\101598034\Win32\Debug\\101598034_GUI.exe;#1" /manifest Debug\101598034_GUI.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\101598034_GUI.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\101598034_GUI.lastbuildstate"。
+     1>專案 "D:\Dropbox\POSD\hw7\101598034\101598034_GUI\101598034_GUI.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:24.75
